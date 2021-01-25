@@ -6,6 +6,8 @@ function MetaData() {
     <Head>
       {/* <!-- Primary Meta Tags --> */}
       <title>Quiz Rocket League</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="utf-8" />
       <meta name="title" content="Quiz Rocket League" />
       <meta name="description" content="Página criada durante a semana da Alura Imersão React v2 feita com Next.js" />
 
