@@ -6,6 +6,7 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizLogo from '../src/components/QuizLogo';
 import MetaData from '../src/components/MetaData';
+import Link from 'next/link'
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -32,13 +33,21 @@ export default function Home() {
             <Widget.Content>
               <p>{db.description}</p>
             </Widget.Content>
+            <Widget.Content>
+              <Widget.Input />
+            </Widget.Content>
+            <Widget.Content>
+              <Link href="/quiz">
+              <Widget.Button>Jogar</Widget.Button>
+              </Link>
+            </Widget.Content>
           </Widget>
 
           <Widget>
             <Widget.Content>
               <h1>Quizes da Galera</h1>
 
-              <p>lorem ipsum dolor sit amet...</p>
+              <p>Dá uma olhada nesse quizes incríveis que o pessoal da Imersão React v2 / Next.js fez:</p>
             </Widget.Content>
           </Widget>
           <Footer />
