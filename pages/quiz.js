@@ -1,12 +1,27 @@
 import styled from 'styled-components'
-
-const Title = styled.h1`
-  color: #000;
-`;
+import Widget from '../src/components/Widget';
+import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
+import GitHubCorner from '../src/components/GitHubCorner';
+import QuizContainer from '../src/components/QuizContainer';
+import db from '../db.json';
 
 function Quiz() {
   return (
-    <Title>Quiz</Title>
+    <QuizBackground backgroundImage={db.bg}>
+      <QuizContainer>
+        <QuizLogo />
+        <Widget>
+          <Widget.Header>
+            <h1>{db.title}</h1>
+          </Widget.Header>
+          <Widget.Content>
+            <p>Aqui vai o quiz</p>
+          </Widget.Content>
+        </Widget>
+      </QuizContainer>
+      <GitHubCorner projectUrl="https://github.com/guilhermesantoss/bladequiz" />
+    </QuizBackground>  
   );
 }
 

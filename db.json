@@ -1,24 +1,42 @@
 {
   "bg": "https://rocketleague.media.zestyio.com/rl_xgames_screens_Decal_XGames.jpg",
   "title": "Quiz Rocket League",
-  "description": "Teste os seus conhecimentos sobre Rocket League e vamos ver se você manja das mecânicas do jogo.",
+  "description": "Teste os seus conhecimentos sobre Rocket League e vamos ver se você manja tudo sobre futebol com carros.",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "title": "O Rocket League é um jogo de carros de qual tipo de esporte?",
       "description": "Essa é pra aquecer",
       "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "alternatives": ["Handebol", "Basquetebol", "Futebol", "Vôlei"]
     },
     {
       "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "title": "Como é o nome da jogada em que os carros saem da parede voando e carregam a bola até o gol?",
+      "description": "Essa é bem fácil",
       "answer": 0,
-      "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
-      ]
+      "alternatives": ["Walldrag", "Flip Reset", "Ceiling Shot", "Air Dribble"]
+    },
+    {
+      "image": "",
+      "title": "Como é o nome da jogada em que você faz o gol recebendo um passe no alto?",
+      "description": "Agora está ficando um pouco mais difícil",
+      "answer": 3,
+      "alternatives": ["Walldrag", "Double Tap", "Air Dribble", "Redirect"]
+    },
+    {
+      "image": "",
+      "title": "Como é chamado as piruetas e giros que os carros fazem voando no Rocket League?",
+      "description": "Essa você sabe, tenho certeza!",
+      "answer": 1,
+      "alternatives": ["Jumpstyle", "Freestyle", "Pinch", "Wavedash"]
+    },
+    {
+      "image": "",
+      "title": "Como é o nome do principal carro do jogo?",
+      "description": "Essa você sabe, tenho certeza!",
+      "answer": 2,
+      "alternatives": ["Dominus", "Breakout", "Octane", "Fennec"]
     }
   ],
   "external": [""],
