@@ -5,14 +5,7 @@ import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizLogo from '../src/components/QuizLogo';
-import Head from 'next/head';
-
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `;
+import MetaData from '../src/components/MetaData';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -28,26 +21,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <>
-      <Head>
-        {/* <!-- Primary Meta Tags --> */}
-        <title>Quiz Rocket League</title>
-        <meta name="title" content="Quiz Rocket League" />
-        <meta name="description" content="Página criada durante a semana da Alura Imersão React v2 feita com Next.js" />
-
-        {/* <!-- Open Graph / Facebook --> */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bladequiz.vercel.app/" />
-        <meta property="og:title" content="Quiz Rocket League" />
-        <meta property="og:description" content="Página criada durante a semana da Alura Imersão React v2 feita com Next.js" />
-        <meta property="og:image" content={db.bg} />
-
-        {/* <!-- Twitter --> */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://bladequiz.vercel.app/" />
-        <meta property="twitter:title" content="Quiz Rocket League" />
-        <meta property="twitter:description" content="Página criada durante a semana da Alura Imersão React v2 feita com Next.js" />
-        <meta property="twitter:image" content={db.bg} />
-      </Head>
+      <MetaData />
       <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
           <QuizLogo />
@@ -69,8 +43,8 @@ export default function Home() {
           </Widget>
           <Footer />
         </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/guilhermesantoss" />
+      <GitHubCorner projectUrl="https://github.com/guilhermesantoss/bladequiz" />
       </QuizBackground>
     </>
-);
+  );
 }
