@@ -1,11 +1,5 @@
 <!-- <img src="https://github.com/guilhermesantoss/proffy-nlw02/blob/master/printscreens/proffy_logo.png" alt="Proffy Logo" width="240" height="92" /> -->
-
-<p>
-  <img src="https://img.shields.io/github/repo-size/guilhermesantoss/bladequiz" alt="Repository Size" />
-  <img src="https://img.shields.io/github/last-commit/guilhermesantoss/bladequiz" alt="Last Commit" />
-  <img src="https://img.shields.io/github/languages/count/guilhermesantoss/bladequiz?color=red" alt="Languages Used" />
-  <img src="https://img.shields.io/github/license/guilhermesantoss/bladequiz?color=yellow" alt="License" />
-</p>
+# Bladequiz
 
 ## Sobre o projeto
 
