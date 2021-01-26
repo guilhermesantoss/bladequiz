@@ -32,12 +32,17 @@ export default function Home() {
 
             <form onSubmit={handleSubmit}>
               <input
+                data-cy="name"
                 type="text"
                 placeholder="Diz aí o seu nome pra jogar :)"
                 onChange={(e) => setName(e.target.value)}
                 maxLength="20"
               />
-              <button type="submit" disabled={name.length === 0}>
+              <button
+                type="submit"
+                disabled={name.length <= 3}
+                data-cy="submit"
+              >
                 {`Jogar ${name}`}
               </button>
             </form>
