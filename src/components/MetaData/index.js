@@ -1,5 +1,7 @@
-import db from '../../../db.json';
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable import/no-unresolved */
 import Head from 'next/head';
+import db from '../../../db.json';
 
 function MetaData() {
   return (

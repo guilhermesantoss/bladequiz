@@ -1,5 +1,9 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import db from "../db.json";
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable react/prop-types */
+import React from 'react';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import db from '../db.json';
+import MetaData from '../src/components/MetaData';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -25,11 +29,12 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const theme = db.theme;
+const { theme } = db;
 
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <MetaData />
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />
