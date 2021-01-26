@@ -8,7 +8,8 @@ import QuizContainer from '../src/components/QuizContainer';
 import db from '../db.json';
 
 function Quiz() {
-  const queryString = window.location.search;
+  const isBrowser = typeof window !== 'undefined';
+  const queryString = isBrowser ? window.location.search : 'Erro ao tentar pegar a URL';
   const urlParams = new URLSearchParams(queryString);
   const name = urlParams.get('name');
 
