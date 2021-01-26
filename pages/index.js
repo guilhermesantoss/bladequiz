@@ -1,4 +1,3 @@
-import styled from 'styled-components'
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
@@ -28,7 +27,7 @@ export default function Home() {
             </Widget.Content>
             <Widget.Content>
               <Link href="/quiz">
-              <Widget.Button>Jogar</Widget.Button>
+                <Widget.Button>Jogar</Widget.Button>
               </Link>
             </Widget.Content>
           </Widget>

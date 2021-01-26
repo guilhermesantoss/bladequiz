@@ -4,9 +4,7 @@ const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
-  background-color: ${({ theme }) => {
-    return theme.colors.mainBg;
-  }};
+  background-color: rgba(23, 27, 53, 0.9);
   border-radius: 4px;
   overflow: hidden;
   h1, h2, h3 {
