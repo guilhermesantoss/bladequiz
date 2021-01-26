@@ -38,6 +38,7 @@ $ yarn dev
 * [React.js](https://reactjs.org/)
 * [ESLint](https://eslint.org/)
 * [Styled-Components](https://styled-components.com/)
+* [Cypress](https://www.cypress.io/)
 
 ## Licença
 
