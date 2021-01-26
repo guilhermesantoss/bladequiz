@@ -40,7 +40,7 @@ export default function Home() {
               />
               <button
                 type="submit"
-                disabled={name.length <= 3}
+                disabled={name.length === 0}
                 data-cy="submit"
               >
                 {`Jogar ${name}`}
