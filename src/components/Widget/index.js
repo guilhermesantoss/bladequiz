@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const Widget = styled.div`
   margin-top: 24px;
@@ -47,12 +47,8 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
-`;
 
-Widget.Input = styled.input.attrs({
-  placeholder: "Diz aí seu nome pra jogar :)",
-})`
-  &&& {
+  input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.4);
@@ -67,24 +63,30 @@ Widget.Input = styled.input.attrs({
       border-radius: 5px;
     }
   }
-`;
 
-Widget.Button = styled.button`
-  background-color: ${({ theme }) => theme.colors.secondary};
-  color: ${({ theme }) => theme.colors.contrastText};
-  width: 100%;
-  height: 40px;
-  outline: none;
-  border: 0;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  button {
+    background-color: ${({ theme }) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.contrastText};
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
 
-  &:hover {
-    background-color: #33bfff;
+    &:hover {
+      background-color: #33bfff;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: #ccc;
+    }
   }
 `;
 
