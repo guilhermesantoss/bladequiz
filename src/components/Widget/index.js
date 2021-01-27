@@ -47,46 +47,29 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+`;
 
-  input {
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 5px;
-    background-color: transparent;
-    color: ${({ theme }) => theme.colors.contrastText};
-    font-size: 1em;
-    padding-left: 20px;
-
-    &:focus {
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      border-radius: 5px;
-    }
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
   }
 
-  button {
-    background-color: ${({ theme }) => theme.colors.secondary};
-    color: ${({ theme }) => theme.colors.contrastText};
-    width: 100%;
-    height: 40px;
-    outline: none;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    margin-top: 20px;
-
-    &:hover {
-      background-color: #33bfff;
-    }
-
-    &:disabled {
-      cursor: not-allowed;
-      background-color: #ccc;
-    }
+  [type="radio"]:checked,
+  [type="radio"]:not(:checked) {
+    position: relative;
+    left: -10px;
   }
 `;
 

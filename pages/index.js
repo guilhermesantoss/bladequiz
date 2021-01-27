@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 /* eslint-disable no-console */
 /* eslint-disable import/no-unresolved */
 import React, { useState } from 'react';
@@ -9,6 +10,8 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizContainer from '../src/components/QuizContainer';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export default function Home() {
   const [name, setName] = useState('');
@@ -31,20 +34,22 @@ export default function Home() {
             <p>{db.description}</p>
 
             <form onSubmit={handleSubmit}>
-              <input
+              <Input
                 data-cy="name"
+                name="nomeDoUsuario"
                 type="text"
                 placeholder="Diz aí o seu nome pra jogar :)"
                 onChange={(e) => setName(e.target.value)}
+                value={name}
                 maxLength="20"
               />
-              <button
+              <Button
+                data-cy="submit"
                 type="submit"
                 disabled={name.length === 0}
-                data-cy="submit"
               >
                 {`Jogar ${name}`}
-              </button>
+              </Button>
             </form>
           </Widget.Content>
         </Widget>

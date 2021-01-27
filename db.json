@@ -4,35 +4,35 @@
   "description": "Teste os seus conhecimentos sobre Rocket League e vamos ver se você manja tudo sobre futebol com carros.",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "https://media.giphy.com/media/l4pT1LutQtGufYNJ6/giphy.gif",
       "title": "O Rocket League é um jogo de carros de qual tipo de esporte?",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": ["Handebol", "Basquetebol", "Futebol", "Vôlei"]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "https://media.giphy.com/media/xT0xepBLaRaduNgkne/giphy.gif",
       "title": "Como é o nome da jogada em que os carros saem da parede voando e carregam a bola até o gol?",
       "description": "Essa é bem fácil",
       "answer": 0,
       "alternatives": ["Walldrag", "Flip Reset", "Ceiling Shot", "Air Dribble"]
     },
     {
-      "image": "",
+      "image": "https://media.giphy.com/media/9atJg0JMmDj9u/giphy.gif",
       "title": "Como é o nome da jogada em que você faz o gol recebendo um passe no alto?",
       "description": "Agora está ficando um pouco mais difícil",
       "answer": 3,
       "alternatives": ["Walldrag", "Double Tap", "Air Dribble", "Redirect"]
     },
     {
-      "image": "",
+      "image": "https://media.giphy.com/media/3vdFJocaKvygTLw8PK/giphy.gif",
       "title": "Como é chamado as piruetas e giros que os carros fazem voando no Rocket League?",
       "description": "Essa você sabe, tenho certeza!",
       "answer": 1,
       "alternatives": ["Jumpstyle", "Freestyle", "Pinch", "Wavedash"]
     },
     {
-      "image": "",
+      "image": "https://media.giphy.com/media/B7fbBOctW1RKz5u0Sl/giphy.gif",
       "title": "Como é o nome do principal carro do jogo?",
       "description": "Essa você sabe, tenho certeza!",
       "answer": 2,
