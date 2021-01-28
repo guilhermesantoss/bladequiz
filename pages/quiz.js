@@ -13,6 +13,8 @@ import QuizContainer from '../src/components/QuizContainer';
 import Button from '../src/components/Button';
 import db from '../db.json';
 
+// comentario adicionado no Linux
+
 const LoadingWidget = () => (
   <Widget>
     <Widget.Header>
