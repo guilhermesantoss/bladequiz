@@ -60,16 +60,9 @@ Widget.Topic = styled.a`
   border-radius: ${({ theme }) => theme.borderRadius};
   transition: .3s;
   display: block;
-  
-  &:hover,
-  &:focus {
-    opacity: .5;
-  }
 
-  [type="radio"]:checked,
-  [type="radio"]:not(:checked) {
-    position: relative;
-    left: -10px;
+  &.cursor-not-allowed {
+    cursor: not-allowed;
   }
 `;
 
