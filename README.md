@@ -2,10 +2,10 @@
 # Bladequiz
 
 <p>
-  <img src="https://img.shields.io/github/repo-size/guilhermesantoss/bladequiz" alt="Repository Size" />
-  <img src="https://img.shields.io/github/last-commit/guilhermesantoss/bladequiz" alt="Last Commit" />
-  <img src="https://img.shields.io/github/languages/count/guilhermesantoss/bladequiz?color=red" alt="Languages Used" />
-  <img src="https://img.shields.io/github/license/guilhermesantoss/bladequiz?color=yellow" alt="License" />
+  <img src="https://img.shields.io/github/repo-size/guilhermesantoss/bladequiz?color=darkblue" alt="Repository Size" />
+  <img src="https://img.shields.io/github/last-commit/guilhermesantoss/bladequiz?color=darkblue" alt="Last Commit" />
+  <img src="https://img.shields.io/github/languages/count/guilhermesantoss/bladequiz?color=darkblue" alt="Languages Used" />
+  <img src="https://img.shields.io/github/license/guilhermesantoss/bladequiz?color=darkblue" alt="License" />
 </p>
 
 ## Sobre o projeto
