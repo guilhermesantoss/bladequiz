@@ -1,4 +1,3 @@
-<!-- <img src="https://github.com/guilhermesantoss/proffy-nlw02/blob/master/printscreens/proffy_logo.png" alt="Proffy Logo" width="240" height="92" /> -->
 # Bladequiz
 
 <p>
