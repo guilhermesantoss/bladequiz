@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center" style="font-size: 50px; font-weight: bold">Bladequiz</p>
 
 <p align="center">
@@ -5,6 +6,15 @@
   <img src="https://img.shields.io/github/last-commit/guilhermesantoss/bladequiz?style=for-the-badge&color=darkblue" alt="Last Commit" />
   <img src="https://img.shields.io/github/languages/count/guilhermesantoss/bladequiz?style=for-the-badge&color=darkblue" alt="Languages Used" />
   <img src="https://img.shields.io/github/license/guilhermesantoss/bladequiz?style=for-the-badge&color=darkblue" alt="License" />
+=======
+# Bladequiz
+
+<p>
+  <img src="https://img.shields.io/github/repo-size/guilhermesantoss/bladequiz?color=darkblue" alt="Repository Size" />
+  <img src="https://img.shields.io/github/last-commit/guilhermesantoss/bladequiz?color=darkblue" alt="Last Commit" />
+  <img src="https://img.shields.io/github/languages/count/guilhermesantoss/bladequiz?color=darkblue" alt="Languages Used" />
+  <img src="https://img.shields.io/github/license/guilhermesantoss/bladequiz?color=darkblue" alt="License" />
+>>>>>>> d8bb17795671694b8fc7fe06dcf4dc46714fd720
 </p>
 
 <details open="open">
