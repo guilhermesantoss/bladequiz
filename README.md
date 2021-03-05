@@ -1,4 +1,4 @@
-<p align="center" style="font-size: 50px; font-weight: bold;">Bladequiz</p>
+<h1 align="center">Bladequiz</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/guilhermesantoss/bladequiz?style=for-the-badge&color=darkblue" alt="Repository Size" />
