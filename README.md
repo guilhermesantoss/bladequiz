@@ -1,45 +1,106 @@
-<!-- <img src="https://github.com/guilhermesantoss/proffy-nlw02/blob/master/printscreens/proffy_logo.png" alt="Proffy Logo" width="240" height="92" /> -->
-# Bladequiz
+<p align="center" style="font-size: 50px; font-weight: bold">Bladequiz</p>
 
-<p>
-  <img src="https://img.shields.io/github/repo-size/guilhermesantoss/bladequiz" alt="Repository Size" />
-  <img src="https://img.shields.io/github/last-commit/guilhermesantoss/bladequiz" alt="Last Commit" />
-  <img src="https://img.shields.io/github/languages/count/guilhermesantoss/bladequiz?color=red" alt="Languages Used" />
-  <img src="https://img.shields.io/github/license/guilhermesantoss/bladequiz?color=yellow" alt="License" />
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/guilhermesantoss/bladequiz?style=for-the-badge&color=darkblue" alt="Repository Size" />
+  <img src="https://img.shields.io/github/last-commit/guilhermesantoss/bladequiz?style=for-the-badge&color=darkblue" alt="Last Commit" />
+  <img src="https://img.shields.io/github/languages/count/guilhermesantoss/bladequiz?style=for-the-badge&color=darkblue" alt="Languages Used" />
+  <img src="https://img.shields.io/github/license/guilhermesantoss/bladequiz?style=for-the-badge&color=darkblue" alt="License" />
 </p>
+
+<details open="open">
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#tecnologias-utilizadas">Tecnologias utilizadas</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#iniciando-o-projeto">Iniciando o projeto</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#abertura-de-issues">Abertura de issues</a></li>
+    <li><a href="#contribuição">Contribuição</a></li>
+    <li><a href="#licença">Licença</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ol>
+</details>
 
 ## Sobre o projeto
 
+<br />
+<p align="center"><img src="https://raw.githubusercontent.com/guilhermesantoss/bladequiz/main/public/bg-bladequiz.png" alt="Logo" /></p>
+<br />
+
 O projeto **Bladequiz** é uma aplicação criada com Next.js baseada no **Aluraquiz**, desenvolvida durante a semana #ImersãoReact v2.
 
-## Instalando as dependências do projeto
+### Tecnologias utilizadas
 
-Utilize o comando:
-```bash
-$ npm install
+- [Next.js](https://nextjs.org/)
+- [React.js](https://reactjs.org/)
+- [ESLint](https://eslint.org/)
+- [Styled-Components](https://styled-components.com/)
+- [Cypress](https://www.cypress.io/)
 
-# OR
+## Iniciando o projeto
 
-$ yarn install
-```
+Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
 
-Agora que as dependências estão devidamente instaladas, vamos executar utilizando o comando:
-```bash
-$ npm run dev
+### Pré-requisitos
 
-# OR
+- Possuir o [Node](https://nodejs.org/en/) instalado na versão 14+
+- Possuir o [git](http://git-scm.com) instalado
 
-$ yarn dev
-```
+### Instalação
 
-## Tecnologias utilizadas
+1. Clone o repositório
+   ```sh
+    git clone https://github.com/guilhermesantoss/bladequiz.git
+   ```
+2. Instale as dependências do projeto
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [ESLint](https://eslint.org/)
-* [Styled-Components](https://styled-components.com/)
-* [Cypress](https://www.cypress.io/)
+   ```sh
+   npm install
+
+   ou
+
+   yarn install
+   ```
+
+3. Execute o projeto
+
+   ```sh
+   npm run dev
+
+   ou
+
+   yarn dev
+   ```
+
+## Abertura de issues
+
+Para abrir uma issue reportando algum bug ou problema [open issues](https://github.com/guilhermesantoss/bladequiz/issues).
+
+## Contribuição
+
+As contribuições são o que tornam a comunidade de **Open Source** um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são **muito bem vindas**.
+
+1. Faça o fork do projeto
+2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit suas alterações (`git commit -m 'Add some AmazingFeature'`)
+4. Dê um push na sua branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
 ## Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Guilherme Santos - [@bladezika1](https://twitter.com/bladezika1) - g.santos.sfc@gmail.com
+
+Link do Projeto: [https://github.com/guilhermesantoss/bladequiz](https://github.com/guilhermesantoss/bladequiz)

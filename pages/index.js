@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable import/extensions */
 /* eslint-disable no-console */
 /* eslint-disable import/no-unresolved */
@@ -58,7 +59,22 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>Dá uma olhada nesse quizes incríveis que o pessoal da Imersão React fez:</p>
+            <ul>
+              {db.external.map((linkEterno, index) => {
+                const [projectName, gitHubUser] = linkEterno
+                  .replace(/\//g, '')
+                  .replace('https:', '')
+                  .replace('.vercel.app', '')
+                  .split('.');
+                return (
+                  <li key={index}>
+                    <Widget.Topic href={linkEterno}>
+                      {`${gitHubUser}/${projectName}`}
+                    </Widget.Topic>
+                  </li>
+                );
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
         <Footer />

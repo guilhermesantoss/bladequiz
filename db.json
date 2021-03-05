@@ -39,7 +39,11 @@
       "alternatives": ["Dominus", "Breakout", "Octane", "Fennec"]
     }
   ],
-  "external": [""],
+  "external": [
+    "https://aluraquiz-base.alura-challenges.vercel.app/",
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+  ],
   "theme": {
     "colors": {
       "primary": "#2c387e",
